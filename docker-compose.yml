@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  apache:
+    build: ./apache
+    ports:
+      - 8000:8000
+    
